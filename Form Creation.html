@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fill the Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2> Register </h2>
+    <form>
+       <p> <label for="text"> First Name: </label>
+        <input name="first" id="text" type="text" placeholder="John" required>
+
+        <label for="text"> Last Name: </label>
+        <input name="last" id="text" type="text" placeholder="Smith" required> </p>
+
+       <p>
+         <Label  for="Male"> Male: </Label>
+         <input name="Gender" id="Male" type="radio" value="MALE">
+
+         <Label for="Female"> Female: </Label>
+         <input name="Gender" id="Female" type="radio" value="FEMALE">
+
+         <Label  for="Other"> Other: </Label>
+         <input name="Gender" id="Other" type="radio" value="OTHER">
+        </p>
+
+        <div>
+        <Label for="Email"> Email: </Label>
+        <input name="email" id="Email" type="email" placeholder="your email" required>
+
+        <Label for="Password"> Password: </Label>
+        <input name="password" type="password" id="Password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+        </div>
+
+        <div>
+            <label>
+              Birthday: 
+            <select name="month">
+                <option> Month </option> <option> February </option> <option> March </option> <option> April </option>
+            </select>
+            <select name="day">
+                <option>Day</option> <option>2</option> <option>3</option>  <option>4</option>
+            </select>
+            <select name="year">
+                    <option>Year</option> <option>2019</option>  <option>2018</option> <option>2017</option>
+            </select>
+            </label>
+        </div>
+
+        <div>
+            <label>
+             I agree to the terms and conditions :
+                <input name="agreed" type="checkbox">
+            </label> 
+        </div> 
+
+        <p>
+             <input type="submit">
+        </p>
+
+    </form>
+    
+</body>
+</html>

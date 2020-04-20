@@ -1,0 +1,15 @@
+h1 {
+
+    color: red;
+}
+
+button {
+    border: 3px solid black;
+    background-color: rgb(139, 139, 238);
+    color: white;
+}
+first-section {
+    border: 2px solid black;
+    background-color:white;
+    color: white;
+}

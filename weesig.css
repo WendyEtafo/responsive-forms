@@ -1,0 +1,36 @@
+/* Creating a border on the page */
+h1 {
+    color: rgba(236, 240, 22, 0.945);
+    /* border-color: black;
+    border-width: 3px;
+    border-style: double; */
+
+    border: red 3px double;
+}
+
+li {
+    color: #D56F10;
+}
+
+h2 {
+    color: rgb(150, 0, 80);
+}
+
+
+div{
+    background: rgb(155, 45, 30);
+}
+
+p{
+    color: rgb(34, 218, 28);
+}
+
+/* To change the background, to insert images on the background,
+to make the image non-repeated if too small for the page, then to 
+make the image cover the whole page*/
+body{
+     /* background: rgba(88, 131, 32, 0.52); */
+    background:url(https://pbs.twimg.com/media/EF9-GTbXkAAq1m-?format=jpg&name=small);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
